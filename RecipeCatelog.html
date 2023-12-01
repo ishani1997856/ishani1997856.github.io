@@ -1,0 +1,207 @@
+<html lang=”en”>
+<head>
+<meta charset=”UTF-8″>
+
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+ 
+	<meta http-equiv=”X-UA-Compatible” content=”ie=edge”>
+
+<title>Recipe Catelog</title>
+
+</head>
+<style>
+
+
+
+.Div1{
+	height:50%;
+	
+	}
+.Div2{
+	height:50%;
+	
+	}
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 100%; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 100%; 
+  background-color:#808080;
+ 
+  
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width:100%;
+	height:80%;
+}
+
+img:hover {
+    box-shadow: 0 0 10px 5px rgba(0, 140, 186, 5);
+}
+
+.cat{
+	font-size:45px;
+	text-align:center;
+	background-color:#808080;
+	
+}
+
+.P1{
+	text-align:center;
+	font-size:35px;
+	color:black;
+	
+}
+
+.P2{
+	text-align:center;
+	font-size:20px;
+	color:white;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 10px;
+  font-weight:bold;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  
+}
+
+.button:hover span {
+  padding-right: 25px;
+  opacity: 0.6;
+   
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+  
+}	
+	
+</style>
+<body class="Body">
+
+<div class="Div1">
+	<div class="row1">
+		<div class="column1"  >
+		<p class="P1">Best Appetizers Ever!</p>
+		
+<p class="P2">The word itself, antipasto, means "before the meal," 
+from the roots anti-, "before," and pasto, "food." 
+The plural of antipasto is antipasti. Definitions of antipasto. 
+a course of appetizers in an Italian meal. type of: appetiser, appetizer, starter.
+		</p>
+	</div>
+	
+		<div class="column1" >
+		<p class="P1" style="color:white">Here's the Main Dishes...</p>
+		
+<p class="P2" style="color:black">The primo: In Italy, pasta is a first course, or primo, served as an appetizer,
+ not as the main event. Soup, rice, and polenta are the other options for the primo. 
+ The secondo: The main course is called il secondo, or the second course. 
+ Chicken, meat, or fish are the usual choices, and portions are generally small.
+		</p>
+		<center><a href="index.html">
+<button class="button"> <span>Home Page</span></button>
+</a></center>
+	</div>
+	
+	<div class="column1" >
+		<p class="P1" >What a Sweetness!</p>
+		
+<p class="P2">In Italy, il dolce is not only a 
+sweet way to end a lunch or dinner—it's also the way
+ many Italians start their day. The term dolci literally 
+ means “sweets,” though the French term “dessert” is also 
+ frequently used in Italy.
+		</p>
+	</div>
+	
+	
+</div>
+</div>
+<div class="Div2">
+<div class="row">
+  <div class="column" >
+
+<a href="Appetizers.html">
+  <img src="App.jpg" alt="App">
+</a>
+	 <div class="cat">Appetizers</div> 
+  </div>
+  <div class="column" >
+    <a href="Mains.html">
+  <img src="main.png" alt="main">
+</a>
+	 <div class="cat">Mains</div> 
+  </div>
+  <div class="column" >
+    <a href="Desserts.html">
+  <img src="Dessert.webp" alt="Dessert">
+</a>
+	 <div class="cat">Desserts</div> 
+  </div>
+</div>
+</div>
+
+
+
+
+</body>
+</html>

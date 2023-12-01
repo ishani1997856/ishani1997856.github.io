@@ -1,0 +1,273 @@
+
+<html lang=”en”>
+<head>
+<meta charset=”UTF-8″>
+
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+
+    <meta http-equiv=”X-UA-Compatible” content=”ie=edge”>
+	
+<title>Home Page</title>
+</head>
+
+<style>
+
+
+.H1{
+	background-image: url("Wall3.jpg");
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-style: italic;
+
+}
+
+.maintext{
+	text-align:left;
+	margin-left:50px;
+	margin-top:50px;
+	font-size:60px;
+	font-family: "Times New Roman", Times, serif;
+	color:#e0e0d1;
+}
+
+.subtext{
+	;
+}
+
+
+div {
+	width:500px;
+	height:150px;
+	margin-left:50px;
+	font-size:25px;
+	color:#e0e0d1;
+	font-family:"Times New Roman", Times, serif;
+	font-style: italic;
+}
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  
+}
+
+.button:hover {
+  padding-right: 25px;
+  opacity: 0.6;
+   
+}
+
+.button:hover :after {
+  opacity: 1;
+  right: 0;
+  
+}
+<!--pop up Form -->
+/* Review Form */
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.button1 {
+  background-color: #00a3cc;
+
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  Font-size:15px;
+			
+			text-align:center;
+			text-decoration:none;
+			outline:none;
+			font-weight:bold;
+			color:black;
+			border-radius:10px;
+			box-shadow:9px #999;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: 100%;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+<!-- form -->
+
+</style>
+<body class="H1"> 
+    <p class="maintext" ><b>Hello...! <br> Italian Foodies...!</b></p>
+	
+<div><p class="bubtext" >
+The essence of Italian cooking today is simplicity. 
+One uses the freshest seasonal ingredients and basic cooking 
+techniques to simply enhance the natural flavor of the food.
+
+
+
+<b><h2>Take a look first ! <br> 
+Make it !     Taste it ! </h2></b>
+<!--
+<form method="POST" name="Form1" action="#" >
+<input class="button" type="submit" name="RC" value="Recipe Catelog"  >
+</form>
+<form method="POST" name="Form1" action="#" >
+<input class="button" type="submit" name="contact" value="Contact Us"  >
+</form>
+
+-->
+<a href="RecipeCatelog.html">
+<button class="button"> <span>Recipies</span></button>
+</a>
+<a href="ContactUsPage.html">
+<button class="button"> <span>Contact Us</span></button>
+</a>
+
+</p>
+
+</div>
+
+
+<!--Form-->
+
+
+
+<!-- -->
+	
+	
+</body>
+
+
+</html>

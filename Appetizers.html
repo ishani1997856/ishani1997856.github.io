@@ -1,0 +1,168 @@
+<?php
+
+?>
+
+<html>
+<title>Appetizers</title>
+
+<style>
+	.Div1{
+		height:20%;
+		background-color:#808080;
+		
+		background-repeat:no-repeat;
+		background-size: cover;
+		
+	}
+	.Div2{
+		
+		
+	}
+	
+	.P1{
+		text-color:Black;
+		font-size:50px;
+		font-family:;
+		text-align:center;
+		padding-top:20px;
+		
+	}
+	* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  
+  height: 60%; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 100%; 
+  background-color:#808080;
+ 
+  
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width:100%;
+	height:100%;
+}
+
+img:hover {
+    box-shadow: 0 0 10px 5px rgba(0, 140, 186, 5);
+}
+
+.cat{
+	font-size:45px;
+	text-align:center;
+	background-color:#808080;
+	
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  
+}
+
+.button:hover span {
+  padding-right: 25px;
+  opacity: 0.6;
+   
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+  
+}
+.Buttoncenter {
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+</style>
+
+<body>
+
+<div class="Div1">
+<p class="P1">Appetizers</p>
+</div>
+
+<div class="Div2">
+<div class="row">
+  <div class="column" >
+
+<a href="EasyBruschetta.html">
+  <img src="App.jpg" alt="App">
+</a>
+	 <div class="cat">Easy Bruschetta</div> 
+  </div>
+  <div class="column" >
+    <a href="EggPlantCaponata.html">
+  <img src="E8.jpg" alt="main">
+</a>
+	 <div class="cat">Eggpalnt Caponata</div> 
+</div>
+<center><a href="RecipeCatelog.html">
+<button class="button"> <span>Recipies</span></button>
+</a></center>
+</div>
+</body>
+</html>
